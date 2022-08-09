@@ -11,12 +11,14 @@ public class GenshinUtils {
     public static final int CNMAINLAND_VERSION = 1;
     public static final int BILIBILI_VERSION = 3;
     public static final int XIAOMI_VERSION = 3;
+    public static final int PRIVATE_VERSION = 4;
 
     public static HashMap<String, String> versionStringMap = new HashMap<String, String>() {{
         put("com.miHoYo.GenshinImpact", "原神国际服");
         put("com.miHoYo.Yuanshen", "原神中国大陆官服");
         put("com.miHoYo.ys.bilibili", "原神渠道服-Bilibili");
         put("com.miHoYo.ys.mi", "原神渠道服-小米");
+        put("org.GenshinImpact.Proxy", "原神私服-org.GenshinImpact.Proxy");
     }};
 
     public static ArrayList<String> getCurrentGenshinPackageNames(Set<String> allApps) {
@@ -35,6 +37,9 @@ public class GenshinUtils {
         for (String f : dataFolder) {
             if (!f.startsWith("com.miHoYo")) {
                 continue;
+            }else{
+                if (!f.startsWith("org.GenshinImpact")) {
+                    continue;
             }
             for(String p:packageNames){
                 if(f.equals(p)){
