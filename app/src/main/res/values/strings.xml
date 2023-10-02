@@ -1,23 +1,24 @@
 <resources>
-    <string name="app_name">原神切换器</string>
-    <string name="GenshinVersion">当前原神版本:</string>
+    <string name="app_name">星铁切换器</string>
+    <string name="GenshinVersion">当前星穹铁道版本:</string>
     <string name="SwitchVersion">切换</string>
     <string name="NetworkBooster">网游加速器:</string>
     <string name="SelectBooster">选择网游加速器</string>
     <string name="StartBooster">启动加速器</string>
-    <string name="StartGenshin">启动原神</string>
-    <string name="init">正在启动原神切换器...</string>
-    <string name="SelectKeptVersion">找到不止一个原神数据文件夹，选择保留的那个。</string>
+    <string name="StartGenshin">启动星穹铁道</string>
+    <string name="init">正在启动星穹铁道切换器…</string>
+    <string name="SelectKeptVersion">找到不止一个星穹铁道数据文件夹，选择保留的那个。</string>
     <string name="SelectTargetVersion">选择要切换目标</string>
     <string name="AboutApp">关于这个应用</string>
-    <string name="Reload">重新检测原神信息</string>
-    <string name="grantBtnText">为Android/Data文件夹授权</string>
+    <string name="Reload">重新检测星穹铁道信息</string>
+    <string name="grantBtnText">为 Android/Data 文件夹授权</string>
     <string name="AboutInfo">
-        原神切换器: 让不同版本的原神共享同一份游戏数据，以减少手机存储空间的占用。\n
-        此版本为 yfj1 的 原神切换器 的修改版，可以识别原神私服。\n
+        星穹铁道切换器: 让不同版本的星穹铁道共享同一份游戏数据，以减少手机存储空间的占用。\n
+        此版本为 yfj1 的 原神切换器 的星铁修改版。\n
+        图标来自 QuAn_ <a href="https://www.miyoushe.com/ys/accountCenter/postList?id=82642572">米游社</a>  <a href="https://www.pixiv.net/users/6657532">Pixiv</a>\n
         本软件不会使用网络连接，软件运行时仅收集游戏相关信息，不会收集其他隐私信息并上传，请放心使用！\n
         原项目链接: <a href="https://github.com/jestyf/GenshinSwitcher">Github</a>  <a href="https://gitee.com/yfj1/genshin-switcher">Gitee</a>\n
         本项目链接: <a href="https://github.com/fengyec2/GenshinSwitcher">Github</a>  <a href="https://gitee.com/fengyec/GenshinSwitcher">Gitee</a>\n
-        此项目使用GPLv3开源协议
+        此项目使用 GPLv3 开源协议
     </string>
 </resources>

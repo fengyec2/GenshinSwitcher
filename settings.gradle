@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "原神切换器"
+rootProject.name = "星铁切换器"
 include ':app'

@@ -6,11 +6,12 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.jtech.genshinswitcher"
+        applicationId "com.fengyec.starrailswitcher"
         minSdk 28
+        //noinspection ExpiredTargetSdkVersion
         targetSdk 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 11
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
